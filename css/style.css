@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'ap203';
+    src: url(../fonts/Quicksand-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'ap202';
+    src: url(../fonts/Algerian.otf);
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    color: blue;
+}
+.box{
+    background-color: bisque;
+    text-align: center;
+    min-height: 40px;
+}
+
+a{
+    text-decoration: underline red wavy 5px;
+}
+.box .text{
+    width: 30%;
+    text-align: justify;
+    text-indent: 40px;
+    /* letter-spacing: 2px; */
+    word-spacing: 5px;
+    line-height: 1.8;
+    color: black;
+    background-color: rgba(100, 148, 237, 0.383);
+    padding: 20px;
+    font-size: 20px;
+    /* font-family: 'Quicksand',sans-serif; */
+    font-family: 'ap202';
+    font-weight: 500;
+}
+
+.socials{
+    text-align: center;
+}
+.socials .social-item{
+    font-size: 40px;
+    list-style: none;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.insta-color{
+    color: #C13584;
+}
+
+.fb-color{
+    color:#3b5998;
+}
+
+.linkedin-color{
+    color: #0e76a8
+}
+
+.socials .social-item i{
+    transition: all 0.4s;
+}
+.socials .social-item:hover i{
+    font-size: 48px;
+}
